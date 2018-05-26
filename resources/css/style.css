@@ -39,19 +39,21 @@ body {
 
   .main.story h2 , h4 {
     text-align: center;
+    padding-bottom: 20px;
   }
 
-  .row.seconde {
+  .row.seconde{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    text-align: center;
   }
-
   .story{
     width: 1000px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
   }
