@@ -1,0 +1,57 @@
+header {
+  baackground-color: black;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+}
+
+#mission {
+  background-image: url("../../resources/Media/mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+
+
+
+  }
+
+  .row.first{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+  }
+
+  .main.story {
+    background-color: black;
+    width: 1200px;
+    height: 100px;
+    align-self:center;
+  }
+
+  .main.story h2 , h4 {
+    text-align: center;
+  }
+
+  .row.seconde {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .story{
+    width: 1000px;
+  }
