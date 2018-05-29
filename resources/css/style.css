@@ -52,11 +52,15 @@ header img {
   align-items: center;
   background-image: url("../../resources/Media/mission-background.jpg");
   height: 700px;
-  width: 1200px;
   padding-top: 70px;
   margin: 0 auto 0 auto;;
   padding: 70px
   border: 4px solid white;
+}
+
+#mission-section {
+  width: 1200px;
+
 }
 
 main {
@@ -74,37 +78,49 @@ main {
 
 
 
-#mission-section h2, h4 {
+#mission-section h2 , h4 {
   background-color: black;
   width: 1200px;
+  text-align: ;
+
 }
 
 #month-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items:center;
   flex-wrap: wrap;
   border: 2px solid white;
-  margin-top: 70px;
   width: 1500px;
   height: 700px;
+  margin-top: 50px;
 
 }
 
 
-#item1 {
+
+.text-content {
   border: 1px solid white;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  width: 1000px;
+  margin-top: 90px
+}
+
+
+
+#item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
-  height: 200px;
-  width: 300px;
 }
 
 #item2 {
-  border: 1px solid red;
-  height: 200px;
-  width: 300px;
   display: flex;
   flex-direction:column;
   justify-content: center;
@@ -116,9 +132,21 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-
 }
 
+#item4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#item5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
 
 
 
@@ -144,4 +172,8 @@ main {
 #item5 img {
   height: 200px;
   width: 300px;
+}
+
+#item1 span {
+  text-align: center;
 }
