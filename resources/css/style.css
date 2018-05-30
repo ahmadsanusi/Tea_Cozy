@@ -44,19 +44,42 @@ header img {
   height: 50px;
 }
 
+#content {
+  border: 3px solid white;
+  width: 1200px;
+  padding-top : 70px;
 
-#mission-section {
+}
+
+
+#mission-section{
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 700px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-image: url("../../resources/Media/mission-background.jpg");
-  height: 700px;
-  padding-top: 70px;
   margin: 0 auto 0 auto;;
-  padding: 70px
   border: 4px solid white;
 }
+
+#msg-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 120px;
+  background-color: black;
+  width: 1200px;
+}
+
+
 
 #mission-section {
   width: 1200px;
@@ -68,8 +91,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  position: relative;
-  top: 70px;
   width: 1500px;
   border: 1px dotted white;
 
@@ -78,37 +99,47 @@ main {
 
 
 
-#mission-section h2 , h4 {
-  background-color: black;
-  width: 1200px;
-  text-align: ;
 
-}
+
+
 
 #month-container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items:center;
-  flex-wrap: wrap;
   border: 2px solid white;
-  width: 1500px;
+  width: 1200px;
   height: 700px;
   margin-top: 50px;
+  position: relative;
+  left: 10%;
+  bottom: 50px
 
 }
 
 
-
-.text-content {
+#items{
   border: 1px solid white;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 500px;
+
+
+}
+
+
+.stories {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: flex-end;
   text-align: center;
   width: 1000px;
-  margin-top: 90px
+  height: 200px;
 }
 
 
@@ -116,8 +147,9 @@ main {
 #item1 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 #item2 {
@@ -125,6 +157,7 @@ main {
   flex-direction:column;
   justify-content: center;
   align-items: center;
+  flex-wrap; wrap;
 }
 
 #item3 {
@@ -132,20 +165,25 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 #item4 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+
 }
+
 
 #item5 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 
@@ -176,4 +214,13 @@ main {
 
 #item1 span {
   text-align: center;
+}
+
+#locations {
+  border: 1px solid white;
+  background-image: url("../../resources/Media/locations-background.jpg");
+  height: 500px;
+  width:1200px;
+  display: flex;
+  flex-direction:column;
 }
